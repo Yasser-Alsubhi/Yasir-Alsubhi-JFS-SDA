@@ -90,7 +90,7 @@ try {
 							//check if the file name is there in the list
 							if (list.contains(input)) {
 								list.remove(input);
-								System.out.println("File "+input+"Deleted!");
+								System.out.println("File "+input+" Deleted!");
 							}
 							else
 								System.out.println("File not Found!");
